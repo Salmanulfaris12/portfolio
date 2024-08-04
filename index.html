@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salman Portfolio</title>
+    <link rel="icon" href="favicon.png">
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script src="index.js"></script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "FC1nTN-GQKBMbouza",
+      });
+   })();
+</script>
+</head>
+<body id="body">
+<div id="header">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark shadow-sm">
+            <a class="navbar-brand" href="#">
+                <img src="logo-removebg-preview.png" class="logo" alt="Logo">
+            </a>
+            <button class="navbar-toggler nv" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <img src="menu.svg" alt="Menu">
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#header" class="nav-link">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#skill" class="nav-link">SKILL</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#projects" class="nav-link">PROJECT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- <nav  class="navbar navbar-expand-lg fixed-top container-fluid navi shadow-sm  px-5 ">
+            <img src="logo-removebg-preview.png" class="logo">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <img src="menu.svg" style="height: 5vh;">
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto ">
+                <ul>
+                    <li><a href="#header" class="nav-link text-white">HOME</a></li>
+                    <li><a href="#about" class="nav-link text-white">ABOUT</a></li>
+                    <li><a href="#skill" class="nav-link text-white">SKILL</a></li>
+                    <li><a href="#projects" class="nav-link text-white">PROJECT</a></li>
+                    <li><a href="#contact" class="nav-link text-white">CONTACT</a></li>
+                </ul>
+                </div>
+            </div>
+        </nav> -->
+    
+        <div class="text-header py-md-5 px-md-5 mx-md-5 my-md-5">
+            <P style="color: #fff;">Web Developer</P>
+            <h1><span>SALMANUL</span><br><span>FARIS.K</span></h1>
+        </div>
+    </div>
+</div>
+
+<div id="about" class="container mt-5">
+    <div class="row">
+        <div class="col-md-4 text-center">
+            <img src="IMG_3953 2[1].jpg" class="about-profile" alt="Profile picture of Salmanul Faris">
+        </div>
+        <div class="col-md-8 " style="padding-left: 40px;">
+            <h1 class="sub-title">About Me</h1>
+            <p>Hi, I’m Salmanul Faris, an internship trainee with hands-on experience in HTML, CSS, and JavaScript. Recently, I completed a college final year project using Flutter, which sharpened my skills in coding and app development. I’m passionate about learning new technologies and improving my communication and self-learning abilities. My curiosity drives me to explore innovative solutions and stay updated with the latest trends in tech. When I'm not coding, I enjoy playing cricket. Thanks for visiting my portfolio!</p>
+            <div class="tab-titles">
+                <p class="tab-links active link">
+                    <i class="fa-solid fa-graduation-cap"></i> Education
+                </p>
+            </div>
+            <div class="tab-contents">
+                <ul>
+                    <li><span>2019</span><br>G.V.H.S.S Cherpullassery</li>
+                    <li><span>2021</span><br>M.E.S Kalladi College</li>
+                    <li><span>Current</span><br>Bridgeon Solutions</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="skill">
+    <div class="container">
+        <div class="row text-center my-5 ">
+            <div class="col-12">
+                <p class="sub-title">My Skills</p>
+            </div>
+        </div>
+        <div class="row justify-content-center skill-row">
+            <div class="col-4 col-md-2 my-5 text-center skill-item  border-0 rounded me-5 py-4 " >
+                <img src="html.svg" class="img-fluid w-50" alt="HTML">
+                <p class="fw-bold fs-6">HTML</p>
+            </div>
+            <div class="col-4 col-md-2 my-5 text-center skill-item border-0 rounded me-5 py-4">
+                <img src="css.svg" class="img-fluid w-50" alt="CSS">
+                <p class="fw-bold fs-6">CSS</p>
+            </div>
+            <div class="col-4 col-md-2 my-5 text-center skill-item border-0 rounded me-5 py-4">
+                <img src="js.svg" class="img-fluid w-50" alt="JavaScript">
+                <p class="fw-bold fs-6">JavaScript</p>
+            </div>
+            <div class="col-4 col-md-2 my-5 text-center skill-item  border-0 rounded me-5 py-4">
+                <img src="bootstrap.svg" class="img-fluid w-50" alt="Bootstrap">
+                <p class="fw-bold fs-6">Bootstrap</p>
+            </div>
+            <div class="col-4 col-md-2 my-5 text-center skill-item  border-0 rounded me-5 py-4">
+                <img src="canva.svg" class="img-fluid w-50" alt="Python">
+                <p class="fw-bold fs-6">Canva</p>
+            </div>
+            <div class="col-4 col-md-2 my-5 text-center skill-item border-0 rounded me-5 py-4">
+                <img src="figma.svg" class="img-fluid w-50" alt="Figma">
+                <p class="fw-bold fs-6">Figma</p>
+            </div>
+            <div class="col-4 col-md-2 my-5 text-center skill-item border-0 rounded me-5 py-4">
+                <img src="word.svg" class="img-fluid w-50" alt="Word">
+                <p class="fw-bold fs-6">MS-Word</p>
+            </div>
+            <div class="col-4 col-md-2 my-5 text-center skill-item  border-0 rounded me-5 py-4">
+                <img src="photoshop.svg" class="img-fluid w-50" alt="photoshop">
+                <p class="fw-bold fs-6">Photoshop</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="projects">
+    <div class="container">
+        <div class="row text-center my-5 ">
+            <div class="col-12">
+                <p class="sub-title">My Projects</p>
+            </div>
+        </div>
+        <div class="row justify-content-center project-row">
+            <div class="col-6 col-md-4 my-5 text-center project-item  border-0 rounded me-5 py-4 " >
+                <a href=""></a><img src="airbnb.png" class="img-fluid w-100 border-0 rounded" alt="airbnb">
+            </div>
+            <div class="col-6 col-md-4 my-5 text-center project-item  border-0 rounded me-5 py-4 " >
+                <img src="campus3.png" class="img-fluid w-100 border-0 rounded" alt="Campus">
+            </div>
+        </div>
+    </div>
+</div>
+<div id="contact">
+    <div class="container  form-row ">
+        <div class="row text-center my-5 ">
+            <div class="col-12">
+                <p class="sub-title">Contact Me</p>
+            </div>
+        </div>
+        <div class="row w-75"> 
+            <div class="col  py-3 text-white">
+                <div class="form-group my-3  ">
+                    <h5 for="name">Name</h5>
+                    <input type="text" class="form-control" id="name" required>
+                </div>
+                <div class="form-group my-3">
+                    <h5 for="email">Email</h5>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="form-group my-3">
+                    <h5 for="message">Message</h5>
+                    <textarea name="" id="message"  row="3" class="form-control py-3" style="resize: none;"></textarea>
+                </div>
+                <div class="form-btn" ><button class="col-md-12 border-0 bg-secondary rounded text-white w-25 py-2" onclick="sendmail()">Submit</button></div>
+            </div>
+            
+        </div>
+
+    </div>
+</div>
+
+
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
